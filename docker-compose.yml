@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   prometheus:
-      image: prom/prometheus:v2.7.0
+      image: prom/prometheus
       volumes:
           - ./prometheus.yml:/etc/prometheus/prometheus.yml
       command:
